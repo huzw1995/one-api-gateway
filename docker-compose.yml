@@ -21,7 +21,6 @@ services:
     #      - FRONTEND_BASE_URL=https://openai.justsong.cn  # 多机部署时从节点取消注释该行
     depends_on:
       - redis
-      - db
     healthcheck:
       test:
         [
